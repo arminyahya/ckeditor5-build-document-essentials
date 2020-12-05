@@ -30,6 +30,7 @@ import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 
 class Editor extends ClassicEditor {}
 
@@ -61,7 +62,8 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextTransformation,
-	Emoji
+	Emoji,
+	HorizontalLine
 ];
 
 export default Editor;
