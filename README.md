@@ -30,8 +30,7 @@ plugins:
 	TextTransformation  
 	Emoji  
 	HorizontalLine
+	PasteFromOffice
 
 Languages:
 	en,ar,zh-cn
-
-css styles are extracted under build/ck-editor.css
