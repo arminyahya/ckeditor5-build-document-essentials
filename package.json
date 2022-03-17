@@ -2,7 +2,7 @@
   "name": "ckeditor5-build-document-essentials",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder + emoji",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "build/ckeditor.js",
@@ -34,10 +34,11 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "build": "node_modules/.bin/webpack-cli --watch --mode production"
+    "build": "webpack-cli --mode production"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-horizontal-line": "^27.0.0",
+    "@ckeditor/ckeditor5-page-break": "^27.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^27.0.0",
     "@wwalc/ckeditor5-emoji": "^11.0.2"
   }
